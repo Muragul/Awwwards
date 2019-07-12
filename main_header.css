@@ -1,0 +1,150 @@
+.main_header {
+    display: flex;
+    background-color: #f4f7f6;
+    border: none;
+}
+#menu{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 10%;
+    font-size: 13px;
+    padding: 20px;
+    background-color: #f4f7f6;
+    border: none;
+    border-right: 1px solid #E6EAEA;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+#menu:hover{
+    color: gray;
+}
+.search {
+    display: flex;
+    width: 85%;
+}
+#search_btn {
+    width: 50%;
+}
+#search_btn i{
+    cursor: pointer;
+    background-color: #f4f7f6;
+    border: none;
+    padding: 25px;
+}
+#title {
+    cursor: pointer;
+    padding: 20px;
+    background-color: #f4f7f6;
+    border: none;
+    font-size: 16px;
+}
+#register {
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 15%;
+    background-color: #f4f7f6;
+    border: none;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+}
+#register:hover {
+    color: gray;
+}
+#submit {
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 15%;
+    background-color: #49c5b6;
+    border: none;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+#submit:hover {
+    background-color: #42AB9E;
+}
+.content {
+    cursor: pointer;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+.sticky + .content {
+    padding-top: 68px;
+}
+
+.animation #logo_a1 {
+    transform: translateX(60px);
+    opacity: 0;
+}
+.animation #logo_a2 {
+    transform: translateX(60px);
+    opacity: 0;
+}
+.animation #logo_r {
+    transform: translateX(60px);
+    opacity: 0;
+}
+.animation #logo_d {
+    transform: translateX(60px);
+    opacity: 0;
+}
+.animation #logo_s {
+    transform: translateX(60px);
+    opacity: 0;
+}
+.animation #logo_w2 {
+    transform: translateX(60px);
+    opacity: 0;
+}
+.animation #logo_w3 {
+    transform: translateX(60px);
+    opacity: 0;
+}
+.animation #logo_w1 {
+    transform: translateX(100px);
+}
+.animation #logo_p {
+    transform: translateX(-90px);
+}
+#title svg path {
+    transition: all 0.5s ease-in-out;
+}
+#title svg polygon {
+    transition: all 0.5s ease-in-out;
+}
+.title_tooltip{
+    opacity: 0;
+    margin: 15px;
+    padding: 10px 20px;
+    width: 140px;
+    background: #9ceade;
+    color: #202121;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 100;
+    border-radius: 35px;
+    transform: translateX(50px);
+    transition: opacity 1s, transform 0.5s ;
+}
+.show_title_tooltip{
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(-30px);
+}
+#tool_link{
+    text-decoration: none;
+    color: #202121;
+    transition: color 0.3s ease-in-out;
+}
